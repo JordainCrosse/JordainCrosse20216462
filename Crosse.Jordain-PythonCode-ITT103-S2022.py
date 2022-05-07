@@ -16,28 +16,28 @@ while keep_going == 'y':
 
     if Class == 1:
         if sales <= 1000:
-            print('The salesperson number is: ' + sales_num + ' and the Commission is ', '$', 0.06 * sales)
+            print('The salesperson number is: ' , sales_num , ' and the Commission is ', '$', 0.06 * sales)
         elif 1000 < sales <= 2000:
 
-            print('The salesperson number is: ' + sales_num + ' and the Commission is ', '$', 0.07 * sales)
+            print('The salesperson number is: ' , sales_num , ' and the Commission is ', '$', 0.07 * sales)
         else:
 
-            print('The salesperson number is: ' + sales_num + ' and the Commission is ', '$', 0.1 * sales)
+            print('The salesperson number is: ' , sales_num , ' and the Commission is ', '$', 0.1 * sales)
     elif Class == 2:
 
 # An else if statement is used to determine whether the user input meets the criteria for class 2
 # if the criteria is meet it will print the saleperson number and the commission
 
         if sales <= 1000:
-            print('The salesperson number is: ' + sales_num + ' and the Commission is ', '$', 0.04 * sales)
+            print('The salesperson number is: ' , sales_num , ' and the Commission is ', '$', 0.04 * sales)
         else:
-            print('The salesperson number is: ' + sales_num + ' and the Commission is ', '$', 0.06 * sales)
+            print('The salesperson number is: ' , sales_num , ' and the Commission is ', '$', 0.06 * sales)
     elif Class == 3:
 
 # An else if statement is used to determine whether the user input meets the criteria for class 3
 # if the criteria is meet it will print the saleperson number and the commission
 
-        print('The salesperson number is: ' + sales_num + ' and the Commission is ', '$',  0.045 * sales)
+        print('The salesperson number is: ' , sales_num , ' and the Commission is ', '$',  0.045 * sales)
     else:
 
 # error message
