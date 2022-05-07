@@ -7,7 +7,7 @@ while keep_going == 'y':
 
 # Assigning User input to variables
 
-    sales_num = input('enter sales person number: ')
+    sales_num = int(input('enter sales person number: '))
     sales = int(input('enter sales amount: '))
     Class = int(input('enter class: '))
 
